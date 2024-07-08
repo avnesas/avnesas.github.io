@@ -1,112 +1,50 @@
-<html><head><base href="https://websim.ai" />
-<title>Avnesas Site</title>
-  <a href="https://dsaman12.itch.io" class="itch-button" target="_blank" w-tid="24">Visit dsaman12 on itch.io</a>
-<style>
-  body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #121212;
-    color: #ffffff;
-    margin: 0;
-    padding: 20px;
-    line-height: 1.6;
-  }
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  h1 {
-    text-align: center;
-    color: #bb86fc;
-    font-size: 2.5em;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  .game-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-  }
-  .game-card {
-    background-color: #1e1e1e;
-    border-radius: 15px;
-    padding: 25px;
-    text-align: center;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  }
-  .game-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(187,134,252,0.3);
-  }
-  .game-icon {
-    font-size: 3em;
-    margin-bottom: 15px;
-  }
-  h2 {
-    color: #03dac6;
-    font-size: 1.8em;
-    margin-bottom: 15px;
-  }
-  p {
-    color: #b0b0b0;
-    font-size: 1em;
-    margin-bottom: 25px;
-  }
-  .cta-button {
-    background-color: #bb86fc;
-    color: #000000;
-    border: none;
-    padding: 12px 25px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-  .cta-button:hover {
-    background-color: #03dac6;
-    box-shadow: 0 0 15px rgba(3,218,198,0.5);
-  }
-  .horror {
-    background: linear-gradient(45deg, #1e1e1e, #2d2d2d);
-  }
-  .casual {
-    background: linear-gradient(45deg, #1e1e1e, #2d3a4a);
-  }
-  .educational {
-    background: linear-gradient(45deg, #1e1e1e, #3a2d4a);
-  }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subdomain Chooser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .site-list {
+            list-style: none;
+            padding: 0;
+        }
+        .site-list li {
+            margin-bottom: 10px;
+        }
+        .site-list li a {
+            display: block;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            color: #333;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .site-list li a:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Avnesas Site: Projects made for fun</h1>
-    <div class="game-grid">
-      <div class="game-card horror">
-        <div class="game-icon">👻</div>
-        <h2>The Link</h2>
-        <p>href horror game</p>
-        <a href="https://avnesas.github.io/The-Link/" class="cta-button">Enter if you dare</a>
-      </div>
-      <div class="game-card casual">
-        <div class="game-icon">👶</div>
-        <h2>Baby Pacifier - Ultimate</h2>
-        <p>Drag babies to their favorite ice cream truck</p>
-        <a href="https://avnesas.github.io/BabyPacifierUltimate/" class="cta-button">Start Pacifying</a>
-      </div>
-      <div class="game-card educational">
-        <div class="game-icon">🎵</div>
-        <h2>Fun 2 Rhyme</h2>
-        <p>Truck, Duck, Pluck, find more by starting to rhyme!</p>
-        <a href="https://avnesas.github.io/FUn2rhyME/" class="cta-button">Start Rhyming</a>
-      </div>
+    <div class="container">
+        <h1>Choose a Subdomain</h1>
+        <ul class="site-list">
+            <li><a href="https://avnesas.github.io/The-Link/">The Link</a></li>
+            <li><a href="https://avnesas.github.io/BabyPacifierUltimate/">Baby Pacifier Ultimate</a></li>
+            <li><a href="https://avnesas.github.io/FUn2rhyME/">FUn2rhyME</a></li>
+            <li><a href="https://avnesas.github.io/bluey-cartoon-live/">Bluey Cartoon Live</a></li>
+        </ul>
     </div>
-  </div>
-</body></html>
+</body>
+</html>
